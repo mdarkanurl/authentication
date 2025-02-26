@@ -52,7 +52,6 @@ const loginControllers = async (req, res) => {
                 token,
             });
         }
-        // send a token
     } catch (error) {
         console.log(error);
     }
