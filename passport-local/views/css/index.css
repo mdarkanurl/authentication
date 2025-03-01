@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column; /* Stack the header and footer vertically */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em; /* Make the title bigger */
+  margin-bottom: 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em; /* Make links bigger */
+}
+
+header a:hover {
+  color: #f4f4f4;
+}
+
+/* Larger Form styles (for registration and login pages) */
+form {
+  max-width: 500px; /* Increase the form width */
+  margin: 0 auto;
+  padding: 40px; /* Increase padding for a bigger form */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+form label {
+  display: block;
+  font-size: 1.3em; /* Larger label font size */
+  margin-bottom: 10px; /* More space between label and input */
+  color: #555;
+}
+
+form input {
+  width: 100%;
+  padding: 15px; /* Larger input padding */
+  margin-bottom: 20px; /* Increased space between input fields */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.2em; /* Larger font size in input */
+  color: #333;
+}
+
+form input:focus {
+  border-color: #333;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 15px; /* Larger button padding */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3em; /* Larger button font size */
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+/* Section for "Have an account" and "Don't have an account" */
+form p {
+  font-size: 1.1em; /* Larger font size for paragraph */
+  text-align: center;
+  margin-top: 30px; /* Increase space from the form */
+}
+
+form p a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+  font-weight: bold; /* Make links bolder */
+  transition: color 0.3s ease;
+}
+
+form p a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1em;
+  color: #666;
+}

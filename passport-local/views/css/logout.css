@@ -1,0 +1,31 @@
+/* Basic styling to center content on the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logout-message {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    color: #007BFF;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }  
