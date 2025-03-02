@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Sign Up</h2>
+    
+    <form action="/signup" method="POST">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+
+    <!-- Google OAuth button -->
+    <div class="oauth-container">
+      <a href="/auth/google" class="oauth-btn google-btn">
+        Sign Up with Google
+      </a>
+    </div>
+
+    <!-- Moved "Already have an account?" link to bottom -->
+    <p class="bottom-text">Already have an account? <a href="/login">Log In</a></p>
+  </div>
+</body>
+</html>
